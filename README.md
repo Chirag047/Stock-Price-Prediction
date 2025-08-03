@@ -77,7 +77,3 @@ streamlit run "stock predictior.py"
 
 ---
 
-### 👤 Author
-
-**Chirag**  
-Feel free to connect with me for collaboration or suggestions!
