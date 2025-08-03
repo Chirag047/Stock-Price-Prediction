@@ -17,7 +17,9 @@ A sleek, interactive **Streamlit-based web application** that enables users to *
 
 ### 📷 App Preview
 
-![App Screenshot](https://user-images.githubusercontent.com/yourusername/yourapp-image.png)  
+<img width="1215" height="758" alt="Image" src="https://github.com/user-attachments/assets/53cd3723-c69f-4bf1-ae8d-38a643dcc11d" />
+<img width="1105" height="628" alt="Image" src="https://github.com/user-attachments/assets/0cca3671-3fb8-402c-9207-196da08286c1" />
+<img width="746" height="298" alt="Image" src="https://github.com/user-attachments/assets/caee0784-5b7a-4dc0-a5c4-766a2e5df4c1" />
 *Replace with actual screenshot of your app UI*
 
 ---
