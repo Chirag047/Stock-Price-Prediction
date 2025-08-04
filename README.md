@@ -3,6 +3,7 @@
 
 A sleek, interactive **Streamlit-based web application** that enables users to **forecast stock prices** using **Meta’s Prophet** and data from **Alpha Vantage**. The app visualizes historical data, generates future forecasts, and compares predicted vs actual closing prices — all in one dashboard.
 
+and the most exciting part is that this is a live project - https://stock-price-prediction-chsk.streamlit.app/ :)
 ---
 
 ### 🚀 Features
