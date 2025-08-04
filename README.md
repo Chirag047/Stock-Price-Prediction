@@ -7,7 +7,7 @@ A sleek, interactive **Streamlit-based web application** that enables users to *
 
 ### 🚀 Features
 
-- 🔍 **Select popular stocks** like AAPL, MSFT, TSLA, AMZN, and GOOGL
+- 🔍 **Write any stocks** like AAPL, MSFT, TSLA, AMZN, and GOOGL etc.
 - 📊 Visualize historical **Open** and **Close** prices
 - 🔮 **Forecast future stock prices** up to 4 years using [Prophet](https://facebook.github.io/prophet/)
 - 📉 Compare **actual vs predicted closing prices**
