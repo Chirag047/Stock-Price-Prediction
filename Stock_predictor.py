@@ -7,13 +7,16 @@ import pandas as pd
 from alpha_vantage.timeseries import TimeSeries
 
 # 🔐 Insert your Alpha Vantage API Key here
-API_KEY = 'YOUR_API_KEY_HERE'  # Replace with your real key
+API_KEY = '26TD6UB6I18UVGXK'  # Replace with your real key
 
 st.set_page_config(page_title="Stock Forecast App")
 st.title("📈 Stock Forecast App (Alpha Vantage)")
 
-stocks = ('AAPL', 'MSFT', 'TSLA', 'AMZN', 'GOOGL')
-selected_stock = st.selectbox("Select stock for prediction", stocks)
+selected_stock = st.text_input("Enter stock ticker (e.g., AAPL, MSFT, TSLA):", value="AAPL").upper()
+
+if not selected_stock:
+    st.warning("Please enter a stock ticker to proceed.")
+    st.stop()
 
 n_years = st.slider("Years of prediction:", 1, 4)
 period = n_years * 365
