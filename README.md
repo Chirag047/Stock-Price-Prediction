@@ -8,7 +8,7 @@ And the most exciting part is that this is a live project - https://stock-price-
 
 ### 🚀 Features
 
-- 🔍 **Write any stocks** like AAPL, MSFT, TSLA, AMZN, and GOOGL etc.
+- 🔍 **Write any International stocks** like AAPL, MSFT, TSLA, AMZN, and GOOGL etc.
 - 📊 Visualize historical **Open** and **Close** prices
 - 🔮 **Forecast future stock prices** up to 4 years using [Prophet](https://facebook.github.io/prophet/)
 - 📉 Compare **actual vs predicted closing prices**
@@ -70,7 +70,7 @@ API_KEY = 'your_real_key_here'
 2. Run the Streamlit app with:
 
 ```bash
-streamlit run "stock predictior.py"
+python -m streamlit run stock_predictor.py
 ```
 
 3. The app will open automatically in your default web browser
